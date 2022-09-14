@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Switch, Input, Box } from '@alifd/next';
-import { SettingTarget } from '@alilc/lowcode-types';
+import { SettingTarget } from '@digiforce-cloud/dvd-types';
 
 import './index.scss';
 

@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { Select } from '@alifd/next';
-import { project } from '@alilc/lowcode-engine';
+import { project } from '@digiforce-cloud/dvd-engine';
 
 export interface PluginProps {
   value: string;

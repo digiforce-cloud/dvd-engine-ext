@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Dialog, Input, Button, Icon } from '@alifd/next';
-import { PluginProps } from '@alilc/lowcode-types';
-import { event, project } from '@alilc/lowcode-engine';
-import MonacoEditor from '@alilc/lowcode-plugin-base-monaco-editor';
+import { PluginProps } from '@digiforce-cloud/dvd-types';
+import { event, project } from '@digiforce-cloud/dvd-engine';
+import MonacoEditor from '@digiforce-cloud/dvd-plugin-base-monaco-editor';
 import './index.less';
 
 const HelpText = `你可以通过点击左侧区域绑定变量或处理函数，当然你也可以在上方输入复杂的表达式。

@@ -1,9 +1,9 @@
 import { Component } from 'react';
 import * as React from 'react';
-import { event, project, skeleton } from '@alilc/lowcode-engine';
+import { event, project, skeleton } from '@digiforce-cloud/dvd-engine';
 import { Dialog, Search, Input, Balloon, Icon, Switch, Message } from '@alifd/next';
-import { PluginProps } from '@alilc/lowcode-types';
-import MonacoEditor from '@alilc/lowcode-plugin-base-monaco-editor';
+import { PluginProps } from '@digiforce-cloud/dvd-types';
+import MonacoEditor from '@digiforce-cloud/dvd-plugin-base-monaco-editor';
 import './index.less';
 
 const defaultParams = '{\n \t "testKey":123 \n}';

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Drawer } from '@alifd/next';
 import { StyleData } from '../../utils/types';
 import { parseToCssCode, parseToStyleData } from '../../utils';
-import MonacoEditor from '@alilc/lowcode-plugin-base-monaco-editor';
+import MonacoEditor from '@digiforce-cloud/dvd-plugin-base-monaco-editor';
 
 interface CodeProps {
   visible: boolean;

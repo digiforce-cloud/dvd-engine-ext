@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import { Button, Icon, Dialog } from '@alifd/next';
-import MonacoEditor from '@alilc/lowcode-plugin-base-monaco-editor';
-import { event, skeleton } from '@alilc/lowcode-engine';
+import MonacoEditor from '@digiforce-cloud/dvd-plugin-base-monaco-editor';
+import { event, skeleton } from '@digiforce-cloud/dvd-engine';
 import { js_beautify } from 'js-beautify';
 import './index.less';
 

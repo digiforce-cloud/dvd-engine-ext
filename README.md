@@ -1,4 +1,4 @@
-#### @alilc/lowcode-engine-ext
+#### @digiforce-cloud/dvd-engine-ext
 
 #### 简介
 lowcode-engine-ext 是阿里低代码引擎官方提供的setter和setter必须依赖的插件集合

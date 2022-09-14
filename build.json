@@ -5,8 +5,8 @@
     "react-dom": "var window.ReactDOM",
     "prop-types": "var window.PropTypes",
     "rax": "var window.Rax",
-    "@alilc/lowcode-engine": "var window.AliLowCodeEngine",
-    "@alilc/lowcode-engine-ext": "var window.AliLowCodeEngineExt",
+    "@digiforce-cloud/dvd-engine": "var window.AliLowCodeEngine",
+    "@digiforce-cloud/dvd-engine-ext": "var window.AliLowCodeEngineExt",
     "moment": "var moment",
     "lodash": "var _",
     "@alifd/next": "var Next"

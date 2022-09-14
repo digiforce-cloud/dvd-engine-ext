@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { isJSExpression, isJSFunction, isJSSlot } from '@alilc/lowcode-types';
+import { isJSExpression, isJSFunction, isJSSlot } from '@digiforce-cloud/dvd-types';
 import { isPlainObject } from './utils';
 import { DatePicker, TimePicker } from '@alifd/next';
 import moment from 'moment';
@@ -47,14 +47,14 @@ export const DateRangeSetter = DatePicker.RangePicker;
 export { ExpressionSetter, EventsSetter, JsonSetter, IconSetter };
 
 // eslint-disable-next-line react/no-multi-comp
-class StringDateSetter extends Component {
+class StringDateSetter extends Component<any> {
   render() {
     const { onChange, value, showTime } = this.props;
     return (
       <DatePicker
         value={moment(value)}
         showTime={showTime}
-        onChange={(val) => {
+        onChange={(val: any) => {
           onChange(val ? val.format() : val);
         }}
       />
@@ -63,7 +63,7 @@ class StringDateSetter extends Component {
 }
 
 // eslint-disable-next-line react/no-multi-comp
-class StringTimePicker extends Component {
+class StringTimePicker extends Component<any> {
   render() {
     const { onChange, value } = this.props;
     return (
@@ -165,7 +165,7 @@ const DataSlotSetter = {
   valueType: ['JSSlot'],
 };
 
-const engineExt = {
+const engineExt: any = {
   setters: {
     StringSetter,
     NumberSetter,
@@ -230,7 +230,7 @@ const engineExt = {
   },
 };
 engineExt.version = packagesInfo.version;
-window.AliLowCodeEngineExt = engineExt;
+(window as any).AliLowCodeEngineExt = engineExt;
 console.log(
   '%c AliLowCodeExt %c v'.concat(engineExt.version, ' '),
   'padding: 2px 1px; border-radius: 3px 0 0 3px; color: #fff; background: #5584ff; font-weight: bold;',

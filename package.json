@@ -1,5 +1,5 @@
 {
-  "name": "@alilc/lowcode-engine-ext",
+  "name": "@digiforce-cloud/dvd-engine-ext",
   "version": "1.0.5-beta.6",
   "description": "",
   "files": [
@@ -29,13 +29,13 @@
     "component"
   ],
   "dependencies": {
-    "@alilc/lowcode-types": "1.0.0",
-    "@alilc/lowcode-utils": "1.0.0",
+    "@digiforce-cloud/dvd-types": "^1.0.14",
+    "@digiforce-cloud/dvd-utils": "^1.0.14",
     "react-color": "^2.19.3",
     "classnames": "^2.2.6",
     "cssjson": "^2.1.3",
     "js-beautify": "^1.13.0",
-    "@alilc/lowcode-plugin-base-monaco-editor": "1.1.1"
+    "@digiforce-cloud/dvd-plugin-base-monaco-editor": "^1.1.1"
   },
   "devDependencies": {
     "@alib/build-scripts": "^0.1.3",
@@ -47,7 +47,7 @@
     "build-plugin-fusion": "^0.1.0",
     "build-plugin-fusion-css": "1.0.3",
     "build-plugin-moment-locales": "^0.1.0",
-    "@alilc/lowcode-editor-skeleton": "1.0.0",
+    "@digiforce-cloud/dvd-editor-skeleton": "^1.0.14",
     "build-plugin-react-app": "^1.1.2",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
@@ -70,5 +70,5 @@
     "registry": "https://registry.npmjs.org/"
   },
   "license": "MIT",
-  "homepage": "https://unpkg.com/@alilc/lowcode-engine-ext@1.0.5-beta.5/build/index.html"
+  "homepage": "https://unpkg.com/@digiforce-cloud/dvd-engine-ext@1.0.5-beta.6/build/index.html"
 }

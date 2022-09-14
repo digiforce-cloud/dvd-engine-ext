@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { Component, Fragment } from 'react';
-import { common, SettingField } from '@alilc/lowcode-engine';
+import { common, SettingField } from '@digiforce-cloud/dvd-engine';
 import { Button, Message } from '@alifd/next';
-import { SetterType, FieldConfig, SetterConfig } from '@alilc/lowcode-types';
+import { SetterType, FieldConfig, SetterConfig } from '@digiforce-cloud/dvd-types';
 import CustomIcon from '../../components/custom-icon';
 import Sortable from './sortable';
 import './style.less';

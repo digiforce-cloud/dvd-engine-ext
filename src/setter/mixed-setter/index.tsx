@@ -1,7 +1,7 @@
 import React, { Component, ComponentClass, ReactNode } from 'react';
 import classNames from 'classnames';
 import { Dropdown, Menu } from '@alifd/next';
-import { common, setters, SettingField } from '@alilc/lowcode-engine';
+import { common, setters, SettingField } from '@digiforce-cloud/dvd-engine';
 import {
   SetterConfig,
   CustomView,
@@ -10,7 +10,7 @@ import {
   TitleContent,
   isSetterConfig,
   isDynamicSetter,
-} from '@alilc/lowcode-types';
+} from '@digiforce-cloud/dvd-types';
 import { IconConvert } from './icons/convert';
 import { intlNode } from './locale';
 

@@ -1,4 +1,4 @@
-import { SettingTarget } from '@alilc/lowcode-types';
+import { SettingTarget } from '@digiforce-cloud/dvd-types';
 
 export interface BehaviorActionProps<Value = Record<string, any>, Options = any> {
   value: Value;
